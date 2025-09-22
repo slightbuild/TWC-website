@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye:wght@400&family=Fredoka+One:wght@400&family=Bebas+Neue:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rye', 'Fredoka One', 'Georgia', serif;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  line-height: 1.7;
+  overflow-x: hidden;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rye', 'Bebas Neue', 'Impact', serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #CC5500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 0.875rem;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+a {
+  color: #CC5500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FF6600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input, textarea {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
