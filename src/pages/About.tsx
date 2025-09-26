@@ -5,7 +5,7 @@ import Card from '../components/shared/Card';
 
 const AboutSection = styled.section`
   padding: 4rem 0;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -247,18 +247,6 @@ const About: React.FC = () => {
             <ValueCard hover>
               <h3>Time & Patience</h3>
               <p>Great BBQ can't be rushed. We dedicate the time needed to properly smoke our meats, sometimes up to 14 hours, because exceptional flavor is worth the wait.</p>
-            </ValueCard>
-            <ValueCard hover>
-              <h3>Excellence Standards</h3>
-              <p>We maintain the highest standards in everything we do, from food preparation to customer service. Excellence isn't just a goal—it's our daily commitment.</p>
-            </ValueCard>
-            <ValueCard hover>
-              <h3>Community Spirit</h3>
-              <p>BBQ brings people together. We foster a sense of community by hosting events, supporting local causes, and creating a space where everyone feels welcome.</p>
-            </ValueCard>
-            <ValueCard hover>
-              <h3>Innovation Respect</h3>
-              <p>While we honor traditional methods, we're always looking for ways to enhance the dining experience through thoughtful innovation and creative menu offerings.</p>
             </ValueCard>
           </ValuesGrid>
         </ValuesSection>
